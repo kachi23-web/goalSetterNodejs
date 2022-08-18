@@ -12,7 +12,7 @@ app.use('/api/goals', require('./routes/goalRoutes'))
 
 //route
 // app.get('/api/goals',(req,res) => {
-//     res.status(200).json({message:"Get goals"})
+//     res.status(200).j  son({message:"Get goals"})
      
 // })
 app.use(errorHandler)
