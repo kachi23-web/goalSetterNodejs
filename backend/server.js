@@ -1,9 +1,15 @@
 const express = require ('express')
+const mongoose  = require('mongoose')  
+const Goal = require('./models/goalModel')
 
+const colors= require('colors')
 const dotenv = require('dotenv').config()
 const {errorHandler} = require('./middleware/errorMiddleware')
-const port = process.env.PORT || 5000
+const connectDB = require('./config/db')
+const { required } = require('nodemon/lib/config')
+const port = process.env.PORT || 8000
 
+connectDB()
 const app = express()
 // for error handling
 app.use(express.json())

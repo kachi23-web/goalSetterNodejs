@@ -5,20 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js -e env",
+    "server": "nodemon backend/server.js",
     "author": "Kachi23",
-    "license": "MIT",
-    "dependencies": {
-      "colors": "^1.4.0",
-      "dotenv": "^16.0.1",
-      "express": "^4.18.1",
-      "mongoose": "^6.5.1"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.19"
-    }
+    "license": "MIT"
   },
   "dependencies": {
-    "express-async-handler": "^1.2.0"
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.19",
+    "uuid": "^8.3.2"
   }
 }
