@@ -1,3 +1,16 @@
 npm run server
 npm i express-async-handler
 npm init -y
+
+
+INSERT INTO `products`(`id`, `cate_id`, `name`, `slug`, `small_description`, `description`, `original_price`, `selling_price`, `image`, `qty`, `tax`, `status`, `trending`, `meta_title`, `meta_keywords`, `meta_description`, `created_at`, `updated_at`) VALUES (" '', 7, 'birthday cakes', 'Birthday Cakes', '4 layered cakes', '4 layered whipped cream adult cake with sugar craft flowers', '20000', '15000', '1643901197.jpg', '4', '2', '0', '1', 'birthday cakes', 'adult cake, sugar crafted flower cake', '4 layered whipped cream adult cake with sugar craft flowers', '', '');
+' ")
+
+
+
+INSERT INTO `products`(`id`, `cate_id`, `name`, `slug`, `small_description`, `description`, `original_price`, `selling_price`, `image`, `qty`, `tax`, `status`, `trending`, `meta_title`, `meta_keywords`, `meta_description`, `created_at`, `updated_at`) VALUES(" '' , 7, 'Queens cakes', 'Queens Cakes', '4 layered cakes', '4 layered whipped cream adult cake with sugar craft flowers', '20000', '15000', '1643901197.jpg', '4', '2', '0', '1', 'queens cakes', 'adult cake, sugar crafted flower cake', '4 layered whipped cream adult cake with sugar craft flowers', '', '' ")
+
+(32, 6, 'birthday cakes', 'Birthday Cakes', '2 tiers whipped cream spider man cake', '2 tiers whipped cream spider man cake', '20000', '20000', '1643898652.jpg', '5', '2', '0', '1', 'birthday cakes', 'boy cake, hero cakes, cartoon character cakes', '2 tiers whipped cream spider man cake', '2022-02-03 14:30:52', '2022-05-25 15:24:51'),
+
+
+INSERT INTO `products`(`id`, `cate_id`, `name`, `slug`, `small_description`, `description`, `original_price`, `selling_price`, `image`, `qty`, `tax`, `status`, `trending`, `meta_title`, `meta_keywords`, `meta_description`, `created_at`, `updated_at`) VALUES (40, 7, 'Queens cakes', 'Queens Cakes', '2 tiers whipped cream spider man cake', '2 tiers whipped cream spider man cake', '20000',
