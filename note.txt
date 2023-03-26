@@ -14,3 +14,4 @@ INSERT INTO `products`(`id`, `cate_id`, `name`, `slug`, `small_description`, `de
 
 
 INSERT INTO `products`(`id`, `cate_id`, `name`, `slug`, `small_description`, `description`, `original_price`, `selling_price`, `image`, `qty`, `tax`, `status`, `trending`, `meta_title`, `meta_keywords`, `meta_description`, `created_at`, `updated_at`) VALUES (40, 7, 'Queens cakes', 'Queens Cakes', '2 tiers whipped cream spider man cake', '2 tiers whipped cream spider man cake', '20000',
+setupMiddlewares
